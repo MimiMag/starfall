@@ -1,0 +1,20 @@
+{
+  "name": "Starfall",
+  "version": "1.0.0",
+  "description": "Starfall game (Phaser 3 + TypeScript)",
+  "main": "index.js",
+  "author": "Mimi",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch & live-server --port=8085"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "phaser": "^3.17.0",
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.2",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  }
+}
